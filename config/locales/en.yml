@@ -1,11 +1,17 @@
 en:
   sample_app: "Sample App"
+  news: "News"
   helpers:
     base_title: "Ruby on Rails tutorials sample app"
+
   title:
     home: "Home"
     help: "Help"
     about: "About"
+    contact: "Contact"
+    signup: "Sign Up"
+    login: "Log in"
+
   welcome: "This is the %{name} page for the <a href=\"http://www.railstutorial.org/\">Rails Tutorial</a>"
 
   help:
@@ -14,6 +20,7 @@ en:
               To get help on this sample app, see the
               <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails Tutorial</em>
               book</a>."
+
   about:
     content: "The <a href=\"http://www.railstutorial.org/\"><em>Ruby on Rails
               Tutorial</em></a> is a
@@ -22,3 +29,20 @@ en:
               to teach web development with
               <a href=\"http://rubyonrails.org/\">Ruby on Rails</a>.
               This is the sample application for the tutorial."
+
+  footer: "The <a href=\"http://www.railstutorial.org/\">Ruby on Rails Tutorial</a>
+          by <a href=\"http://www.michaelhartl.com/\">Michael Hartl</a>"
+
+  contact:
+    content: "Contact the Ruby on Rails Tutorial about the sample app at the
+              <a href=\"http://www.railstutorial.org/contact\">contact page</a>."
+
+  signup:
+    content: "This will be a signup page for new users."
+
+  img:
+    rails: "Rails logo"
+
+  button:
+    signup: "Sign up now!!"
+
