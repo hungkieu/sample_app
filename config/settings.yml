@@ -4,5 +4,6 @@ email:
   max_length: 255
 password:
   min_length: 6
-
+user_avatar:
+  size: 80
 
