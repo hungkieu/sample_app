@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 20180328032806) do
+ActiveRecord::Schema.define(version: 20180328160858) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -7,6 +7,7 @@ ActiveRecord::Schema.define(version: 20180328032806) do
     t.datetime "updated_at", null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

@@ -8,6 +8,8 @@ en:
       update: "Confirm changes to %{model}"
   confirmation: "Confirmation"
   account: "Account"
+  update:
+    profile: "Update your profile"
 
   title:
     home: "Home"
@@ -20,6 +22,10 @@ en:
     profile: "Profile"
     settings: "Settings"
     logout: "Log out"
+    edit:
+      user: "Edit user"
+    all_users: "All users"
+    delete: "Delete"
 
   welcome: "This is the %{name} page for the <a href=\"http://www.railstutorial.org/\">Rails Tutorial</a>"
   welcome2: "Welcome to the Sample App!"
@@ -52,18 +58,27 @@ en:
 
   img:
     rails: "Rails logo"
+    change: "change"
 
   button:
     signup: "Sign up now!!"
     remember_me: "Remember me on this computer"
+    save: "Save changes"
 
   alert:
     form: "The form contains %{err}."
     create_fail: "error when creating account"
+    update_fail: "error when updating account"
+    delete_fail: "error when deleting account"
     user_not_found: "User not found!"
     invalid: "Invalid email/password combination"
     logout: "Log out successfully"
+    profile_updated: "Profile updated"
+    please_login: "Please log in."
+    access_denied: "Access denied"
+    user_deleted: "User deleted"
 
   question:
     new_user: "New user?"
+    you_sure: "You sure?"
 

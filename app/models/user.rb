@@ -3,6 +3,7 @@ class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   has_secure_password
   before_save :email_downcase
+
   validates :name, presence: true, length: {maximum: Settings.user_name.max_length}
   validates :email, presence: true, length: {maximum: Settings.email.max_length},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
@@ -18,6 +19,10 @@ class User < ApplicationRecord
     def new_token
     SecureRandom.urlsafe_base64
     end
+  end
+
+  def current_user? user
+    self == user
   end
 
   def remember

@@ -6,4 +6,5 @@ password:
   min_length: 6
 user_avatar:
   size: 80
-
+  size_min: 50
+per_page: 15
