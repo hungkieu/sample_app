@@ -55,6 +55,7 @@ en:
 
   button:
     signup: "Sign up now!!"
+    remember_me: "Remember me on this computer"
 
   alert:
     form: "The form contains %{err}."
