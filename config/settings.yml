@@ -8,3 +8,11 @@ user_avatar:
   size: 80
   size_min: 50
 per_page: 15
+host: "localhost:3000"
+mail_default: "hungkieu.h12@gmail.com"
+password_reset_expired: 2
+micropost_content:
+  max_length: 140
+resize_limit: [400, 400]
+picture:
+  accept: "image/jpeg,image/gif,image/png"
