@@ -10,6 +10,7 @@ en:
   account: "Account"
   update:
     profile: "Update your profile"
+  account_activation: "Account activation"
 
   title:
     home: "Home"
@@ -29,6 +30,7 @@ en:
 
   welcome: "This is the %{name} page for the <a href=\"http://www.railstutorial.org/\">Rails Tutorial</a>"
   welcome2: "Welcome to the Sample App!"
+  welcome3: "Welcome to the Sample App! Click on the link below to activate your account:"
 
   help:
     content: "Get help on the Ruby on Rails Tutorial at the
@@ -82,3 +84,14 @@ en:
     new_user: "New user?"
     you_sure: "You sure?"
 
+  info:
+    check_your_email: "Please check your email to activate your account."
+
+  success:
+    account_activated: "Account activated!"
+
+  danger:
+    invalid_activation_link: "Invalid activation link"
+
+  warning:
+    check_email: "Account not activated. Check your email for the activation link."
