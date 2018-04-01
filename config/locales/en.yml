@@ -11,6 +11,7 @@ en:
   update:
     profile: "Update your profile"
   account_activation: "Account activation"
+  password_reset: "Password reset"
 
   title:
     home: "Home"
@@ -27,6 +28,7 @@ en:
       user: "Edit user"
     all_users: "All users"
     delete: "Delete"
+    forgot_password: "Forgot password"
 
   welcome: "This is the %{name} page for the <a href=\"http://www.railstutorial.org/\">Rails Tutorial</a>"
   welcome2: "Welcome to the Sample App!"
@@ -66,6 +68,7 @@ en:
     signup: "Sign up now!!"
     remember_me: "Remember me on this computer"
     save: "Save changes"
+    submit: "Submit"
 
   alert:
     form: "The form contains %{err}."
@@ -79,6 +82,8 @@ en:
     please_login: "Please log in."
     access_denied: "Access denied"
     user_deleted: "User deleted"
+    can_not_empty: "can't be empty"
+    fail: "Failure causes unknown"
 
   question:
     new_user: "New user?"
@@ -86,12 +91,23 @@ en:
 
   info:
     check_your_email: "Please check your email to activate your account."
+    forgot_password: "(forgot password)"
+    click_link: "To reset your password click the link below:"
+    reset_password: "Reset password"
+    two_hours: "This link will expire in two hours."
+    alert_reset: "If you did not request your password to be reset,
+                  please ignore this email and your password will stay as it is."
+    email_sent_with_password_reset: "Email sent with password reset instructions"
 
   success:
     account_activated: "Account activated!"
+    password_has_been_reset: "Password has been reset."
 
   danger:
     invalid_activation_link: "Invalid activation link"
+    email_not_found: "Email address not found"
+    invalid_user: "Invalid user"
+    password_reset_has_expired: "Password reset has expired."
 
   warning:
     check_email: "Account not activated. Check your email for the activation link."

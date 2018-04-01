@@ -10,3 +10,4 @@ user_avatar:
 per_page: 15
 host: "localhost:3000"
 mail_default: "hungkieu.h12@gmail.com"
+password_reset_expired: 2
