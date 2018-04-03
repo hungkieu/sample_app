@@ -17,3 +17,4 @@ resize_limit: [400, 400]
 picture:
   accept: "image/jpeg,image/gif,image/png"
   size: 5
+
