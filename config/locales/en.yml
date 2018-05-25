@@ -15,7 +15,8 @@ en:
   post_at: "Posted %{time} ago."
   microposts_count: "Microposts (%{count})"
   micropost_feed: "Micropost Feed"
-  error: "error"
+  flollowing: "following"
+  followers: "followers"
 
   title:
     home: "Home"
@@ -75,6 +76,9 @@ en:
     save: "Save changes"
     submit: "Submit"
     post: "Post"
+    follow: "Follow"
+    unfollow: "Unfollow"
+
 
   alert:
     form: "The form contains %{err}."
